@@ -1,0 +1,10 @@
+import scratchattach as scratch3
+Uname=input("What is your Username?")
+Password=input("What is your password?")
+ProjID=input("What is the project id?")
+varname=input("What is the name of the variable/cloud variable?")
+value=input("What is the value?")
+session=scratch3.login(Uname,Password)
+conn=session.connect_cloud(ProjID)
+conn.set_var(varname, "0")
+conn.disconnect()
