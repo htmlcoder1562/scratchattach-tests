@@ -6,4 +6,4 @@ Before you start anything, complete the checklist.
 * STAY IN LINUX!!!!!!!!!!!!*
 * Have fun!*
     
-This means every file needs it*
+This means every file needs it: *
