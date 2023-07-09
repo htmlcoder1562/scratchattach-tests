@@ -15,3 +15,4 @@ while Done==0:
     conn.disconnect()
 # Test this at: https://scratch.mit.edu/projects/851418630/
 # If you use that, then for the project ID, use this: 851418630
+# Also must have linux.
