@@ -7,6 +7,8 @@ Before you start anything, complete the checklist.
 * STAY IN LINUX/WINDOWS!!!!!!!!!!!!*
 * Have fun!*
 
+IMPORTANT: Made for: https://scratch.mit.edu/projects/851418630/
+
 FEATURES at https://github.com/TimMcCool/scratchattach/README.md
 This means every file needs it: *
 This means most need it: **
