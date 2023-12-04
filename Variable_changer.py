@@ -8,7 +8,8 @@ while Done==0:
     value=input("What is the value? note: numbers only\n")
     session=scratch3.Session(sessionID, username=uname)
     conn=session.connect_cloud(ProjID)
-    conn.set_var(varname, value)
+    for x in ["1","2"]
+        conn.set_var(varname, value)
     answer=input("Done? y/n NOT yes, no, Y, or N")
     if answer=="y":
         Done=1
