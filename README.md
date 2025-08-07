@@ -20,6 +20,8 @@ FEATURES at https://github.com/TimMcCool/scratchattach/README.md
 More coming soon!
 #
 # Running the code
+Note: If you need to enter the project ID, look at the number in the Scratch project's url. That's the project ID.
+#
 #### Event-test.py
 #
 To run this, first download it and open in the Python app, or my personal favorite, [Visual Studio Code](https://code.visualstudio.com/download). Then run it and look at the [Scratch example page](https://scratch.mit.edu/projects/851418630/). This file is made so if you Press one of the buttons that change the variable "test2", it will show a message in the output of the file.
