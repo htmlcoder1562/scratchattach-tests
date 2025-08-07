@@ -1,7 +1,7 @@
 import scratchattach as sa
 from getpass import getpass
 
-session = sa.login(input("What's your username?\n"), getpass("What's your password? (hidden in terminal)") # Log in to Scratch
+session = sa.login(input("What's your username?\n"), getpass("What's your password? (hidden in terminal)")) # Log in to Scratch
 cloud = session.connect_scratch_cloud("project_id") # Connect Scratch's cloud
 events = cloud.events()
 
