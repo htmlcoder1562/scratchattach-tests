@@ -1,12 +1,12 @@
 import scratchattach as scratch3
+from getpass import getpass
 Done=0
-sessionID=input("What is your Session ID? You can find it at: https://github.com/TimMcCool/scratchattach/wiki/Get-your-session-id\n")
 uname=input("What is your username?\n")
 while Done==0:
     ProjID=input("What is the project id?\n")
     varname=input("What is the name of the cloud variable?\n")
     value=input("What is the value? note: numbers only\n")
-    session=scratch3.Session(sessionID, username=uname)
+    session=scratch3.login(uname, getpass("What's your password for Scratch? (Hidden in the terminal)"))
     conn=session.connect_cloud(ProjID)
     for x in ["1","2"]: # Repeated twice because the variables don't always change first thing
         conn.set_var(varname, value)
