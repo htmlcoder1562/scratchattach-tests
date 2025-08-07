@@ -14,7 +14,7 @@ FEATURES at https://github.com/TimMcCool/scratchattach/README.md
 # Requirements
 | filename | Scratcher status required | Scratch account required |
 |------|------------------|-----------------|
-Event-test.py|❌|❌|
+Event-test.py|✅|✅|
 Variable-changer.py|✅|✅|
 
 (Python and pip are required for all files)
