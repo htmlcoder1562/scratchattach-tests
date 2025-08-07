@@ -1,23 +1,26 @@
-# go to  https://scratch.mit.edu/projects/851418630/ and Move up and down the test2 variable and look for a message here!
-import scratchattach as scratch3
-ProjID=input("What is the project ID?\n")
-events=scratch3.CloudEvents(ProjID)
-@events.event
-def on_set(event): #Called when a cloud var is set
-    print(f"{event.user} set the variable {event.var} to the valuee {event.value} at {event.timestamp}\n\n")
+import scratchattach as sa
+from getpass import getpass
+
+session = sa.login(input("What's your username?\n"), getpass("What's your password? (hidden in terminal)") # Log in to Scratch
+cloud = session.connect_scratch_cloud("project_id") # Connect Scratch's cloud
+events = cloud.events()
 
 @events.event
-def on_del(event):
-    print(f"{event.user} deleted variable {event.var}\n\n")
+def on_set(activity): #Called when a cloud var is set
+    print(f"Variable {activity.var} was set to the value {activity.value} at {activity.timestamp}")
+    # `activity` is a sa.CloudActivity object
+    # To get the user who set the variable, call activity.load_log_data() which saves the username to the activity.username attribute
 
 @events.event
-def on_create(event):
-    print(f"{event.user} created variable {event.var}\n\n")
+def on_del(activity):
+    print(f"{activity.user} deleted variable {activity.var}")
+
+@events.event
+def on_create(activity):
+    print(f"{activity.user} created variable {activity.var}")
 
 @events.event #Called when the event listener is ready
 def on_ready():
-   print("\nEvent listener ready!\nNote:When cloud events change, If this is on, you will get notified. enter To leave.\n\n\n\n")
+   print("Event listener ready!")
 
 events.start()
-input()
-events.stop()
