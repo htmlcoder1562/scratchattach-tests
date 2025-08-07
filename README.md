@@ -12,15 +12,17 @@ FEATURES at https://github.com/TimMcCool/scratchattach/README.md
 * If you don't have Python, get it at the [download page](https://www.python.org/downloads) and find your device's OS there. Then install pip (usually preinstalled with Python, check with `pip --version`) using `python get-pip.py` for windows, `sudo apt install python3-pip`  for linux. ** To change your settings or delete your account, go to the [settings page](https://scratch.mit.edu/accounts/settings/). IMPORTANT: You NEED the "Scratcher" status to use cloud variables. Go to your profile page (scratch.mit.edu/users/[YOUR USERNAME HERE]) and look to the right of your username, and it willneed to say "Scratch Team" (For people who actually code Scratch) or "Scratcher". NOT "new scratcher", otherwise nothing would work except items on the list below not needing the Scratcher status. (To know when you get that status, the Scratch Team will message you inviting you to upgrade to the Scratcher status)
 
 # Requirements
-| file | Scratcher status | Scratch account | Python + Pip |
-|------|------------------|-----------------|--------------|
-| Event-test.py |✅|✅|✅|
-| Variable-changer.py |✅|✅|✅|
+| filename | Scratcher status required | Scratch account required |
+|------|------------------|-----------------|
+Event-test.py|❌|❌|
+Variable-changer.py|✅|✅|
+
+(Python and pip are required for all files)
 
 More coming soon!
 #
 # Running the code
-Note: If you need to enter the project ID, look at the number in the Scratch project's url. That's the project ID.
+**Note**: If you need to enter the project ID, look at the number in the Scratch project's url. That's the project ID.
 #
 #### Event-test.py
 #
