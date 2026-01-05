@@ -31,3 +31,5 @@ To run this, first download it and open in the Python app, or my personal favori
 #### Variable-changer.py
 #
 Same as the previous one, just download and run with your favorite python interpreter.
+#
+Thanks To TimMcCool on Scratch and Github for Scratchattach, which this runs on. It would not be possible without him.
