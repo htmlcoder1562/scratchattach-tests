@@ -1,15 +1,14 @@
 # Setup
 Before you start anything, please complete the checklist.
 
-* Make sure you have pip and Python installed.*
-* Install Scratchattach by running pip install scratchattach
-* Make an account** in [Scratch](https://scratch.mit.edu) if you don't have one already. Remember your details.
+* Make sure you have pip and Python installed.[^1]
+* Install Scratchattach by running `pip install scratchattach`
+* Make an account[^2] in [Scratch](https://scratch.mit.edu) if you don't have one already.
 * Have fun!
 
-IMPORTANT: Made for: https://scratch.mit.edu/projects/851418630/
+Made for https://scratch.mit.edu/projects/851418630/ and any remixes.
 
-FEATURES at https://github.com/TimMcCool/scratchattach/README.md
-* If you don't have Python, get it at the [download page](https://www.python.org/downloads) and find your device's OS there. Then install pip (usually preinstalled with Python, check with `pip --version`) using `python get-pip.py` for windows, `sudo apt install python3-pip`  for linux. ** To change your settings or delete your account, go to the [settings page](https://scratch.mit.edu/accounts/settings/). IMPORTANT: You NEED the "Scratcher" status to use cloud variables. Go to your profile page (scratch.mit.edu/users/[YOUR USERNAME HERE]) and look to the right of your username, and it willneed to say "Scratch Team" (For people who actually code Scratch) or "Scratcher". NOT "new scratcher", otherwise nothing would work except items on the list below not needing the Scratcher status. (To know when you get that status, the Scratch Team will message you inviting you to upgrade to the Scratcher status)
+Full details on all features at https://github.com/TimMcCool/scratchattach/README.md
 
 # Requirements
 | filename | Scratcher status required | Scratch account required |
@@ -33,3 +32,6 @@ To run this, first download it and open in the Python app, or my personal favori
 Same as the previous one, just download and run with your favorite python interpreter.
 #
 Thanks To TimMcCool on Scratch and Github for Scratchattach, which this runs on. It would not be possible without him.
+
+[^1]: If you don't have Python, get it at the [download page](https://www.python.org/downloads) and find your device's OS there. Then install pip (usually preinstalled with Python, check with `pip --version`) using `python get-pip.py` for windows, `sudo apt install python3-pip`  for linux.
+[^2]: To change your settings or delete your account, go to the [settings page](https://scratch.mit.edu/accounts/settings). IMPORTANT: You NEED the "Scratcher" status to use cloud variables. Go to your profile page (scratch.mit.edu/users/[YOUR USERNAME HERE]) and look to the right of your username, and it will need to say "Scratcher". NOT "new scratcher", otherwise nothing would work except items on the list above not needing the Scratcher status. (To know when you get that status, the Scratch Team will message you inviting you to upgrade to the Scratcher status)
